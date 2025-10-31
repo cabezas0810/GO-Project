@@ -1,0 +1,17 @@
+Proyección a Futuro (12 meses)
+Modelo Holt-Winters nivel aditivo – estacionalidad multiplicativa reentrenado con las ventas mensuales 2012‑2020 de “Leche Entera 1L”.
+Pronóstico en unidades:
+Ene-2021 2968 | Feb-2021 3345 | Mar-2021 3622 | Abr-2021 3584 | May-2021 3913 | Jun-2021 3369 | Jul-2021 2990 | Ago-2021 3698 | Sep-2021 2363 | Oct-2021 2079 | Nov-2021 2179 | Dic-2021 2602.
+Referencia “Helado Chocolate Suizo 1L” con el mismo modelo para planificación cruzada: Ene 3630, Feb 2631, Mar 3037, Abr 2950, May 3357, Jun 2840, Jul 2504, Ago 2077, Sep 2014, Oct 1795, Nov 1862, Dic 2274.
+
+Recomendaciones de Inventario
+• Leche Entera 1L: ajustar stock objetivo a “pronóstico + seguridad” con nivel de servicio 95% (safety stock ≈ 1.65*σ histórico mensual). Resultado en % del pronóstico: 9–15% la mayor parte del año, subiendo a 17% en septiembre y 15% en diciembre. Recomendación práctica: planificar cobertura mensual y mantener 400 unidades extra en meses críticos (marzo, septiembre, diciembre) y 250 unidades adicionales el resto del año.
+• Helado Chocolate Suizo 1L: la alta volatilidad exige colchón mayor; el mismo criterio arroja un safety stock entre 35% y 47% del pronóstico. Sugerir inventario base equivalente a 1.4 meses de venta para enero-julio (1.6 meses en enero) y reducirlo gradualmente a 1.2 meses en agosto-noviembre, con reaprovisionamientos quincenales para evitar sobrestock. Aumentar pedidos entre noviembre y febrero en +40% vs promedio anual para cubrir pico estival.
+• Implementar monitoreo mensual de desviación real vs forecast (>10% trigger) y ajustar parámetros de servicio según capacidad de almacenamiento y costo de quiebre.
+
+Recomendación Estratégica (desestacionalizar helado)
+Datos históricos identifican valle entre agosto y noviembre (demanda mensual <2100 unidades). Proponer campaña escalonada de incentivo:
+1) Lanzar promociones fuertes (2x1, combos con bebidas calientes) agosto-septiembre para anticipar al valle profundo.
+2) Mantener acciones de menor intensidad en octubre-noviembre (descuentos cruzados con repostería o postres calientes) para sostener tracción previa a la temporada alta.
+3) Complementar con activaciones digitales en marzo-abril, cuando inicia la pendiente descendente, buscando alargar el efecto posverano.
+Justificación: estas ventanas coinciden con los mínimos de la serie y permiten redistribuir la demanda sin canibalizar los picos naturales de diciembre-febrero.
